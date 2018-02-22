@@ -47,3 +47,10 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
+.formac {
+    float: left;
+}
+.text-experiencia.{
+    float: right;
+}
