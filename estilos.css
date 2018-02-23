@@ -33,6 +33,10 @@
     margin-top: 2em;
     padding: 1em;
 }
+.row2 ul{
+    list-style-type: none;
+    
+}
 a:link {
     color: black;
 }
@@ -49,16 +53,21 @@ a:active {
     text-decoration: none;
 }
 
-.slide{
+.slide {
     background-color: tomato;
 }
-.experienc{
+.experienc {
+    margin-left: 1em;
+    margin-right: 1em;
     background-color: yellow;
 }
-.row3 h2{
+.experienc ul {
+    list-style-type: none;
+}
+.row3 h2 {
     background-color: blue;
 }
-.row15 h2{
+.row15 h2 {
     background-color: #055;
     color: white;
 }
@@ -71,7 +80,7 @@ a:active {
         margin: 0;
     }
     /* Encabezado CV */
-    .row1{
+    .row1 {
         margin-top: 1em;
         padding: 2em;
         background-color: rgba(100, 100, 204, 0.356)
@@ -91,12 +100,12 @@ a:active {
         margin-left: 0;
     }
     
-    .foto{
+    .foto {
         border-radius: 50%;
     }
     
     /* Datos del CV */
-    .row2{
+    .row2 {
         margin-top: 2em;
         padding: 1em;
     }
@@ -116,16 +125,16 @@ a:active {
         text-decoration: none;
     }
     
-    .slide{
+    .slide {
         background-color: tomato;
     }
-    .experienc{
+    .experienc {
         background-color: yellow;
     }
-    .row3 h2{
+    .row3 h2 {
         background-color: blue;
     }
-    .row15 h2{
+    .row15 h2 {
         background-color: #055;
         color: white;
     }
