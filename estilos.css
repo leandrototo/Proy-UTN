@@ -23,6 +23,7 @@
 .nombre {
     margin-left: 15em;
 }
+
 .foto{
     border-radius: 50%;
 }
@@ -50,4 +51,82 @@ a:active {
 
 .slide{
     background-color: tomato;
+}
+.experienc{
+    background-color: yellow;
+}
+.row3 h2{
+    background-color: blue;
+}
+.row15 h2{
+    background-color: #055;
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    /* tablet */
+    *{
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+    /* Encabezado CV */
+    .row1{
+        margin-top: 1em;
+        padding: 2em;
+        background-color: rgba(100, 100, 204, 0.356)
+    }
+    .espacio {
+        background-color: red;
+    }
+    
+    .LT {
+        margin-top: 3em;
+    
+        padding-bottom: 2px;
+        border-bottom: 2px solid  rgb(139, 139, 139);
+        height: 100%;
+    }
+    .nombre {
+        margin-left: 0;
+    }
+    
+    .foto{
+        border-radius: 50%;
+    }
+    
+    /* Datos del CV */
+    .row2{
+        margin-top: 2em;
+        padding: 1em;
+    }
+    a:link {
+        color: black;
+    }
+    a:link {
+        text-decoration: none;
+    }
+    a:visited {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    a:active {
+        text-decoration: none;
+    }
+    
+    .slide{
+        background-color: tomato;
+    }
+    .experienc{
+        background-color: yellow;
+    }
+    .row3 h2{
+        background-color: blue;
+    }
+    .row15 h2{
+        background-color: #055;
+        color: white;
+    }
 }
